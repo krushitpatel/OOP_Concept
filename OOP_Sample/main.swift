@@ -23,4 +23,7 @@ print(dolly.toString())
 let garfield = Cat(ownerName : "Steven")
 print(garfield.toString())
 
+let stephen = Dog(ownerName : "Joseph")
+print(stephen.toString())
+
 

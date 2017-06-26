@@ -13,6 +13,6 @@ class Sheep: Animal {
     }
     var maxAge: Int = 6
     func toString() -> String {
-        return "Sheep Dolly Sound: \(dolly.getSound())\nFood: \(dolly.baseFood)\nAge:  \(dolly.maxAge)"
+        return "Sheep Sound: \(self.getSound())\nFood: \(self.baseFood)\nAge:  \(self.maxAge)"
     }
 }

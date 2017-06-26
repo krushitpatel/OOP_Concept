@@ -17,6 +17,6 @@ class Dog: Animal {
     }
     var maxAge: Int = 4
     func toString()-> String{
-    return "Dog Lessie Sound: \(lessie.getSound())\nFood: \(lessie.baseFood)\nAge: \(lessie.maxAge)\nownerName: \(lessie.Name)"
+    return "Dog  Sound: \(self.getSound())\nFood: \(self.baseFood)\nAge: \(self.maxAge)\nownerName: \(self.Name)"
     }
 }

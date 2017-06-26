@@ -17,6 +17,6 @@ class Cat: Animal {
         self.Name = ownerName
     }
     func toString() -> String {
-        return "Cat Garfield Sound: \(garfield.getSound())\nFood: \(garfield.baseFood)\nAge: \(garfield.maxAge)\nownerName: \(garfield.Name)"
+        return "Cat Sound: \(self.getSound())\nFood: \(self.baseFood)\nAge: \(self.maxAge)\nownerName: \(self.Name)"
     }
 }

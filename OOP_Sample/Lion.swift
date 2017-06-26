@@ -14,6 +14,6 @@ class Lion: Animal {
     }
     var maxAge: Int = 5
     func toString() -> String {
-        return "Lion Scar Sound: \(scar.getSound())\nFood: \(scar.baseFood)\nAge: \(scar.maxAge)"
+        return "Lion Sound: \(self.getSound())\nFood: \(self.baseFood)\nAge: \(self.maxAge)"
     }
 }
