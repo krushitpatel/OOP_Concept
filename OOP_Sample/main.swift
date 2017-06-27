@@ -26,5 +26,7 @@ print(garfield.toString())
 let stephen = Dog(ownerName : "Joseph")
 print(stephen.toString())
 
+let john = Sheep()
+print(john.toString())
 
 
